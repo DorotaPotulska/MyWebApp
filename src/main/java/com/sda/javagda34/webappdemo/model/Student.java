@@ -1,5 +1,6 @@
-package com.javagda34.webapp;
+package com.sda.javagda34.webappdemo.model;
 
+import com.sda.javagda34.webappdemo.model.Gender;
 import lombok.*;
 
 @Getter
@@ -10,7 +11,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Student {
-    private String indexNumber;
+    private String indexNumber; //unikalny
     private String firstName;
     private String lastName;
     private Double average;
